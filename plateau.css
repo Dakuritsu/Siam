@@ -1,0 +1,93 @@
+body{
+background-image: url('./images/bg.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.parent{
+  width:706px;
+  align:center;
+  height: 525px;
+  align: center;
+  border: 1px solid yellow;
+  margin:0 auto;
+}
+
+#plateau {
+  padding-top : 22px;
+}
+#elephants {
+  padding-top : 22px;
+}
+#rhinos {
+  padding-top : 22px;
+}
+#plateau{
+  background-image: url('./images/plateau.jpg');
+  background-size: 500px, 500px;
+  background-repeat: no-repeat;
+  align: center;
+  border: 1px solid red;
+  display: inline-block;
+  margin:0 auto;
+  width:500px;
+  height: 500px;
+}
+
+#rhinos{
+  align: center;
+  border: 1px solid green;
+  float:right;
+  width:100px;
+  height: 500px;
+}
+
+#elephants{
+  align: center;
+  border: 1px solid black;
+  float:left;
+  width:100px;
+  height: 500px;
+}
+
+#table_plateau td {
+  align:center;
+  width: 88px;
+  height: 88px;
+  border: 1px solid blue;
+}
+
+#table_rhino td {
+  width: 88px;
+  height: 88px;
+  border: 1px solid blue;
+}
+
+#table_elephant td {
+  width: 88px;
+  height: 88px;
+  border: 1px solid blue;
+}
+
+
+table, th, td{
+    border-collapse : collapse;
+}
+
+td div{
+  height: 88px;
+  width: 88px;
+  background-repeat: no-repeat;
+}
+
+#tourJoueur {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+}
